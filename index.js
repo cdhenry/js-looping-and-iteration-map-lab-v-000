@@ -3,8 +3,8 @@ function lowerCaseDrivers(drivers){
   return drivers.map(function (driver) { return driver.toLowerCase(); });
 }
 
-function nameToAttributes(){
-
+function nameToAttributes(drivers){
+  return drivers.map(function (driver) {return Object.assign({}, firstName)})
 }
 
 function attributesToPhrase(){
